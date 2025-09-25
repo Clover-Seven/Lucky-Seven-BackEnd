@@ -1,0 +1,20 @@
+name: "Deploy"
+description: "배포"
+labels: [ "Deploy" ]
+title: "Deploy: "
+body:
+  - type: textarea
+    attributes:
+      label: 📄배포 설명
+      description: 배포에 대한 설명
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: ✅작업 예정 내용
+      description: To Do List 작성 (Check Box)
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: 🙋🏻참고 자료

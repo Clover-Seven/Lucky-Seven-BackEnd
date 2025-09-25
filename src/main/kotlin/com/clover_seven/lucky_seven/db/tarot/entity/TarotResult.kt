@@ -7,7 +7,7 @@ import jakarta.persistence.GenerationType
 import jakarta.persistence.Id
 
 @Entity
-class TarotTotalResult(
+class TarotResult(
     tarotTopicId: Long, userId: Long, situation: String, totalDescription: String
 ) : BaseTime() {
 

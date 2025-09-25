@@ -6,7 +6,7 @@ import jakarta.persistence.GenerationType
 import jakarta.persistence.Id
 
 @Entity
-class TarotDetailResult(
+class TarotResultDetail(
     @Id @GeneratedValue(strategy = GenerationType.IDENTITY) var id: Long,
     var tarotTotalResultId: Long,
     var tarotSpreadId: Long,

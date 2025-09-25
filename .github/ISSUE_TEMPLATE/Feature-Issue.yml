@@ -1,0 +1,20 @@
+name: "Feature"
+description: "기능 추가"
+labels: [ "Feat" ]
+title: "Feat: "
+body:
+  - type: textarea
+    attributes:
+      label: 📄기능 설명
+      description: 새로운 기능에 대한 설명
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: ✅작업 예정 내용
+      description: To Do List 작성 (Check Box)
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: 🙋🏻참고 자료

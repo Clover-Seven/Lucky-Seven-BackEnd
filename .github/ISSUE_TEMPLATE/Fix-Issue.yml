@@ -1,0 +1,20 @@
+name: "Fix"
+description: "기능 수정"
+labels: [ "Fix" ]
+title: "Fix: "
+body:
+  - type: textarea
+    attributes:
+      label: 📄상황 설명
+      description: 현재 상황에 대한 설명
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: ✅작업 예정 내용
+      description: To Do List 작성 (Check Box)
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: 🙋🏻참고 자료

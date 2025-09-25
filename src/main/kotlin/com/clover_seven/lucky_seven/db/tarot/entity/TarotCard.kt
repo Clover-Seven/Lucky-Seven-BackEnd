@@ -1,0 +1,14 @@
+package com.clover_seven.lucky_seven.db.tarot.entity
+
+import jakarta.persistence.Entity
+import jakarta.persistence.GeneratedValue
+import jakarta.persistence.GenerationType
+import jakarta.persistence.Id
+
+@Entity
+class TarotCard(
+    @Id @GeneratedValue(strategy = GenerationType.IDENTITY) var id: Long,
+    var name: String,
+    var isReversed: Boolean,
+    var image: String
+)

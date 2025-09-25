@@ -4,6 +4,7 @@ import com.clover_seven.lucky_seven.db.BaseTime
 import com.clover_seven.lucky_seven.enums.ServiceType
 import jakarta.persistence.*
 
+@Entity
 class UserActiveLog(
     userId: Long,
     serviceType: ServiceType,
